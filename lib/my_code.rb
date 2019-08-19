@@ -30,13 +30,13 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array, starting_point)
-  new_value = 0
-  source_array.length.times do |index|
-    if source_array[index + starting_point]
-    new_value += source_array[index + starting_point] 
-    end
-  end
-  new_value
+  # new_value = 0
+  # source_array.length.times do |index|
+  #   if source_array[index + starting_point]
+  #   new_value += source_array[index + starting_point] 
+  #   end
+  # end
+  # new_value
 end
 
 def reduce_to_all_true(source_array)
