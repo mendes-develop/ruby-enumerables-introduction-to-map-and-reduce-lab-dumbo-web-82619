@@ -50,6 +50,11 @@ def reduce_to_all_true(source_array)
 #       return false
 #   end
 # return true
+  if source_array.contains?(false)
+    return false
+  else return true
+end
+
 end
 
 def reduce_to_any_true(source_array)
