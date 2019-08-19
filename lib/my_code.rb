@@ -45,15 +45,12 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-#   for i in (source_array)
-#     if i != true
-#       return false
-#   end
-# return true
-  if source_array.contains?(false)
-    return false
-  else return true
-end
+  for i in (source_array)
+    if i == !true
+      return false
+  end
+return true
+ 
 
 end
 
