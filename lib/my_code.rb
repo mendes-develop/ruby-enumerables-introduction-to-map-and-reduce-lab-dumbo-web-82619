@@ -37,10 +37,9 @@ def reduce_to_total(source_array, starting_point = 0)
   #   end
   # end
   # new_value
+  
   for i in (source_array[starting_point]..source_array[-1])
-  
   new_value += i
-  
   end
   return new_value
 end
